@@ -44,10 +44,13 @@
 		<filename>index.html</filename>
 	</files>
 	
-	<media folder="media" destination="com_bulletin_board"></media>
+	<media folder="media" destination="com_bulletin_board">
+		<folder>images</folder>
+		<filename>index.html</filename>
+	</media>
 
 	<administration>
-		<menu img="components/com_bulletin_board/assets/images/edit.png" link="index.php?option=com_bulletin_board">COM_BULLETIN_BOARD_XML_MENU_NAME</menu>
+		<menu img="../media/com_bulletin_board/images/edit.png" link="index.php?option=com_bulletin_board">COM_BULLETIN_BOARD_XML_MENU_NAME</menu>
 		<submenu>
 			<menu view="posts">COM_BULLETIN_BOARD_XML_SUBMENU_POSTS</menu>
 			<menu view="categories">COM_BULLETIN_BOARD_XML_SUBMENU_CATEGORIES</menu>
