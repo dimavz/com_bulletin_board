@@ -9,23 +9,23 @@ class com_bulletin_boardInstallerScript{
 	
 	
 	public function preflight($route, JAdapterInstance $adapter){
-		echo JText::_('COM_BULLETIN_BOARD_PREFLIGHT_STR');
+		echo JText::_('COM_BULLETINBOARD_PREFLIGHT_STR');
 	}
 	
 	public function postflight($route, JAdapterInstance $adapter){
-		echo JText::_('COM_BULLETIN_BOARD_POSTFLIGHT_STR');
+		echo JText::_('COM_BULLETINBOARD_POSTFLIGHT_STR');
 	}
 	
 	public function install(JAdapterInstance $adapter){
-		echo JText::_('COM_BULLETIN_BOARD_INSTALL_STR');
+		echo JText::_('COM_BULLETINBOARD_INSTALL_STR');
 	}
 	
 	public function update(JAdapterInstance $adapter){
-		echo JText::_('COM_BULLETIN_BOARD_UPDATE_STR');
+		echo JText::_('COM_BULLETINBOARD_UPDATE_STR');
 	}
 	
 	public function uninstall(JAdapterInstance $adapter){
-		echo JText::_('COM_BULLETIN_BOARD_UNINSTALL_STR');
+		echo JText::_('COM_BULLETINBOARD_UNINSTALL_STR');
 	}
 }
 ?>
